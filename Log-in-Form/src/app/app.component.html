@@ -1,0 +1,13 @@
+<!-- TODO 1: Make this form call the 'onSubmit' function using the ngSubmit directive. -->
+<form #form="ngForm" (ngSubmit)="onSubmit(form)">
+	<!-- TODO 2: Create an input of type text with id as 'name' and name as 'name' -->
+	<input type="text" name="name" ngModel id="name">
+	<br>
+	<!-- TODO 3: Create an input of type email with id as 'email' and name as 'email' -->
+	<input type="email" name="email" ngModel id="email">
+	<br>
+	<!-- TODO 4: Create an input of type password with id as 'password' and name as 'password' -->
+	<input type="password" name="password" ngModel id="password">
+	<br>
+	<input type="submit" id="submit" value="Submit">
+</form>
